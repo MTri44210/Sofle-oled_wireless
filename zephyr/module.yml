@@ -1,0 +1,5 @@
+# The ZMK v0.3.0 reusable GitHub Actions workflow detects this file and
+# automatically adds the repository root as a Zephyr module.
+name: sofle-oled-custom
+build:
+  cmake: oled_module
